@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
-* {
-  padding: 0;
-  margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Passion+One:wght@400;700;900&display=swap");
+
+.chewyFont {
+  font-family: "Chewy", serif;
+}
+
+.passionOneFont {
+  font-family: "Passion One", serif;
 }

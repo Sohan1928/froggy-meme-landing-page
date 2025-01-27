@@ -1,12 +1,11 @@
 import "./App.css";
+import Home from "./components/layouts/Home";
 
 function App() {
   return (
     <>
-      <div className="bg-red-400">
-        <h1 className="text-3xl font-bold text-center">
-          Froggy animated web page
-        </h1>
+      <div className="md:w-[1465px] mx-auto">
+        <Home></Home>
       </div>
     </>
   );
