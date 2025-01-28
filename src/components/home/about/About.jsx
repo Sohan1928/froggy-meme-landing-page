@@ -1,5 +1,3 @@
-import { FaTelegramPlane } from "react-icons/fa";
-
 const About = () => {
   return (
     <div className="relative">
@@ -9,10 +7,10 @@ const About = () => {
         alt=""
       />
 
-      <div className="md:px-64 absolute top-0 md:left-0 w-full h-full flex items-center justify-center">
-        <div className="flex items-center justify-center mx-auto gap-8">
-          <div className="w-1/2 chewyFont uppercase text-white">
-            <h1 className="text-xl md:text-7xl mb-4 font-semibold ">About</h1>
+      <div className="md:px-64 absolute top-0 md:left-0 md:w-full md:h-full flex items-center justify-center">
+        <div className="flex items-center py-2 px-4 md:px-0 md:py-0 justify-center mx-auto gap-8">
+          {/* <div className="w-1/2 chewyFont uppercase text-white">
+            <h1 className=" md:text-7xl mb-4 font-semibold ">About</h1>
             <p className="md:text-xl text-[12px]">
               FROGGY08 isn’t just another meme coin; it’s a community-driven
               cryptocurrency built on humor, inclusivity, and the love for all
@@ -25,10 +23,15 @@ const About = () => {
                 <FaTelegramPlane className="size-6"></FaTelegramPlane>
               </span>
             </button>
-          </div>
-          <div>
+          </div> */}
+          <img
+            className="md:size-1/2 size-2/5"
+            src="http://res.cloudinary.com/du0uabbwo/image/upload/v1738082435/gy4h8r6jprqfum5ymkqm.png"
+            alt=""
+          />
+          <div className="md:w-full">
             <img
-              className="md:w-[480px] md:h-[488px] "
+              className="h-[132px] md:w-full md:h-[488px]"
               src="Ellipse 23.png"
               alt=""
             />

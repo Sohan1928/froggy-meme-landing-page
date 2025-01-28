@@ -1,16 +1,21 @@
 const HowToBuy = () => {
   return (
-    <div className="chewyFont mt-8 mx-2 md:mx-[160px]">
-      <div>
+    <div className="chewyFont relative mt-8 pb-24">
+      <div className="mx-2 md:mx-[160px]">
         <div>
-          {/* <h1 className="text-black bg-[#10FF10] text-2xl md:text-[80px]  font-semibold text-center">
-            How To Buy
-          </h1> */}
-          <h1 className="text-[#10FF10] text-2xl md:text-[80px] font-semibold text-center drop-shadow-[4px_4px_0px_#000] drop-shadow-black">
-            How To Buy
-          </h1>
+          <img
+            className="flex flex-col items-center justify-center mx-auto py-8 h-28 md:h-36  "
+            src="http://res.cloudinary.com/du0uabbwo/image/upload/v1738082393/tzk6govqgjbeyynvvyrj.png"
+            alt=""
+          />
         </div>
-        <div className="md:flex items-stretch space-y-2 md:space-y-0 gap-6">
+        <div>
+          <img
+            src="http://res.cloudinary.com/du0uabbwo/image/upload/v1738084121/xyxkun51velk8lxi3xdk.png"
+            alt=""
+          />
+        </div>
+        {/* <div className="md:flex items-stretch space-y-2 md:space-y-0 gap-6">
           <div className="border border-black px-8 py-8 md:shadow-[4px_4px_0px_#000] rounded-[60px] flex-1 flex flex-col items-center justify-center bg-[#B1E8BF]">
             <img
               className="size-16"
@@ -57,7 +62,10 @@ const HowToBuy = () => {
               $ETH to FROGGY.
             </p>
           </div>
-        </div>
+        </div> */}
+      </div>
+      <div>
+        <div className="absolute -bottom-2 md:-bottom-24 left-0 right-0 h-[100px] md:h-[200px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738077382/m0zbzm1oqg39nzsqsz3a.png')] bg-cover bg-center opacity-100"></div>
       </div>
     </div>
   );

@@ -9,9 +9,7 @@ const Navbar = () => {
       {/* Background image */}
       <div className="absolute inset-0 bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1737998772/zvzifbjiereevzvz89t3.png')] bg-cover opacity-50"></div>
 
-      {/* Navbar content */}
       <div className="relative flex items-center pt-8 pb-12 md:pb-24 justify-between mx-2 md:mx-12">
-        {/* Logo */}
         <div className="flex items-center  text-black">
           <img
             className="h-8 w-8 md:h-14 md:w-14"
@@ -23,7 +21,6 @@ const Navbar = () => {
           </h2>
         </div>
 
-        {/* Navbar links (desktop and burger menu) */}
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
@@ -43,12 +40,10 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Button */}
         <div className="">
           <CustomButton></CustomButton>
         </div>
 
-        {/* Burger menu for mobile */}
         <div className="flex md:hidden">
           <button
             className="text-black text-2xl"
