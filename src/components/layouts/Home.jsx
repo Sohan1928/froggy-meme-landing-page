@@ -1,5 +1,6 @@
 import About from "../home/about/About";
 import Banner from "../home/banner/Banner";
+import HowToBuy from "../home/howToBuy/HowToBuy";
 import Navbar from "../home/navbar/Navbar";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <Navbar></Navbar>
         <Banner></Banner>
         <About></About>
+        <HowToBuy></HowToBuy>
       </div>
     </div>
   );
