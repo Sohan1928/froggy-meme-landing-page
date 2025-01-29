@@ -6,6 +6,13 @@ const About = () => {
         src="http://res.cloudinary.com/du0uabbwo/image/upload/v1738057537/hwfdmg38robduxktlfm6.png"
         alt=""
       />
+      {/* <div className="absolute -bottom-2 md:bottom-64 left-0 right-0 h-[100px] md:h-[200px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738088932/gscqczikeruieorxz3cq.png')] bg-cover bg-center opacity-30"></div>
+
+      <div className="absolute -bottom-2 md:-bottom-24 left-0 right-0 h-[100px] md:h-[200px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738088932/gscqczikeruieorxz3cq.png')] bg-cover bg-center opacity-30"></div> */}
+
+      {/* <div className="absolute  md:bottom-44 left-8 h-[200px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738089179/cq6eftxsmmij4rdultpz.png')] opacity-100"></div>
+
+      <div className="absolute  md:bottom-44 left-8 h-[200px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738089757/uw1iaf3gdbm384yrl4vf.png')] opacity-100"></div> */}
 
       <div className="md:px-64 absolute top-0 md:left-0 md:w-full md:h-full flex items-center justify-center">
         <div className="flex items-center py-2 px-4 md:px-0 md:py-0 justify-center mx-auto gap-8">

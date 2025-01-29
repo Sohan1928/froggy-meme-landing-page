@@ -36,8 +36,17 @@ const Banner = () => {
       </div>
       <div className="absolute -bottom-2 md:-bottom-4 left-0 right-0 h-[100px] md:h-[200px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738003737/nre3se0ijh3xdladzd4r.png')] bg-cover bg-center opacity-40"></div>
 
-      <div className="absolute md:-bottom-[250px] left-0 right-0 md:h-[120px] bg-white bg-cover bg-center opacity-15"></div>
-      <div className="absolute md:-bottom-[590px] left-0 right-0 md:h-[120px] bg-white bg-cover bg-center opacity-15"></div>
+      <div className="absolute md:-bottom-[240px] left-0 shadow-2xl shadow-white right-1/6 h-[100px] md:h-[50px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738122236/sgcfzggwpvkndwhw2bg4.png')] opacity-100 bg-transparent"></div>
+
+      <div className="absolute md:-bottom-[510px] left-1/6 shadow-2xl shadow-white right-0 h-[100px] md:h-[50px] bg-[url('http://res.cloudinary.com/du0uabbwo/image/upload/v1738122236/sgcfzggwpvkndwhw2bg4.png')] opacity-100 bg-transparent"></div>
+
+      <div className="absolute md:-bottom-[250px] left-1/6 right-0 md:h-[120px] bg-gradient-to-r from-white/80 to-white/80 bg-cover bg-center">
+        <div className="absolute inset-0 shadow-[0_0_60px_30px_rgba(255,255,255,1)] pointer-events-none"></div>
+      </div>
+
+      <div className="absolute md:-bottom-[590px] left-0 right-1/6 md:h-[120px] bg-gradient-to-r from-white/80 to-white/80 bg-cover bg-center">
+        <div className="absolute inset-0 shadow-[0_0_60px_30px_rgba(255,255,255,1)] pointer-events-none"></div>
+      </div>
     </div>
   );
 };
